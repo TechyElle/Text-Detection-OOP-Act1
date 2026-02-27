@@ -9,9 +9,8 @@ pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesse
 img = cv2.imread('1.png')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
-#############################################
-#### Detecting Characters  ######
-#############################################
+
+### Detecting Characters (Minimal character detection)
 hImg, wImg,_ = img.shape
 boxes = pytesseract.image_to_boxes(img)
 for b in boxes.splitlines():
