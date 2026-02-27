@@ -21,7 +21,11 @@ This project contains two Python examples for extracting text from images using 
 ## Install
 
 1. Install Tesseract OCR:
+<<<<<<< HEAD
    - https://tesseract-ocr.github.io/tessdoc/Home.html
+=======
+   - [Tesseract User Manual](https://tesseract-ocr.github.io/tessdoc/Home.html)
+>>>>>>> a8dc45a (Version 2.0: Added text detection features)
    - Default path used in scripts:
      - `C:\Program Files\Tesseract-OCR\tesseract.exe`
 
@@ -66,3 +70,14 @@ A window opens showing the image with detected character bounding boxes and labe
   - webcam / screen-capture OCR loop
 - Uncomment the block you want to test.
 - Press any key in the OpenCV window to close (`cv2.waitKey(0)`).
+<<<<<<< HEAD
+=======
+
+## References
+
+The code in this project is based on the following tutorial:
+
+- [OpenCV-Python-Tutorials-and-Projects/TextDetection](https://github.com/murtazahassan/OpenCV-Python-Tutorials-and-Projects/tree/master/Intermediate/TextDetection)
+
+**NOTE:** This is for educational purposes. Please do not plagiarize.
+>>>>>>> a8dc45a (Version 2.0: Added text detection features)
