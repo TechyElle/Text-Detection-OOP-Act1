@@ -21,7 +21,6 @@ This project contains two Python examples for extracting text from images using 
 ## Install
 
 1. Install Tesseract OCR:
-   - https://tesseract-ocr.github.io/tessdoc/Home.html
    - [Tesseract User Manual](https://tesseract-ocr.github.io/tessdoc/Home.html)
    - Default path used in scripts:
      - `C:\Program Files\Tesseract-OCR\tesseract.exe`
